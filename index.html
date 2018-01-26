@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Gamedev Canvas Workshop</title>
+  <style>
+    * { padding: 0; margin: 0; }
+    canvas { background: #eee; display: block; margin: 0 auto; }
+    </style>
+</head>
+<body>
+
+<canvas id="myCanvas" width="480" height="320"></canvas>
+
+<script>
+  // To actually be able to render graphics on the <canvas> element, a reference must be made to it in JavaScript.
+  var canvas = document.getElementById("myCanvas"); // This stores a reference to the <canvas> element in the canvas variable.
+  var ctx = canvas.getContext("2d"); // The ctx variable is there to store the 2D rendering context — the actual tool used to paint on the Canvas.
+  
+  // The following code below prints a red square to the canvas.
+  ctx.beginPath();
+  
+</script>
+
+</body>
+</html>
